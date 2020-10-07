@@ -9,7 +9,7 @@ html {
   font-family: cursive;
   text-align: center;
   border-radius: 45%;
-  background-color: rgba(255, 255, 255, 0.884);
+  background-color: rgba(255, 255, 255, 0.966);
   grid-column-start: line3;
   grid-column-end: col4-start;
   grid-row-start: row1-start;
@@ -20,7 +20,7 @@ html {
 
 header {
   display: grid;
-  grid-template-columns: [first] 20% [line2] 10% [line3] 40% [col4-start] 10% [five] 20% [end];
+  grid-template-columns: [first] 20% [line2] 10% [line3] 15% [line4] 10% [line5] 15% [col4-start] 10% [five] 20% [end];
   grid-template-rows: [row1-start] 60px [row1-end] 40px [third-line];
 }
 
@@ -51,17 +51,14 @@ h2 {
 }
 button {
   color: black;
-  background-color: white;
+  background-color: rgba(250, 219, 184, 0.842);
   text-align: center;
   font-family: cursive;
-  grid-column-start: line3;
-  grid-column-end: col4-start;
+  grid-column-start: line4;
+  grid-column-end: line5;
   grid-row-start: row1-end;
   grid-row-end: third-line;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 3px;
 }
 
 .container {
