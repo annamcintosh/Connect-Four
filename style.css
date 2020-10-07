@@ -79,9 +79,6 @@ span {
   flex-flow: column-reverse wrap;
 }
 
-/* tile player A = #2A9D8F
-tile player B = #E76f51 */
-
 .clickedPlayerOne {
   width: 135px;
   height: 135px;
